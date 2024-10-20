@@ -14,12 +14,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 100px;
+  margin: 50px 100px 30px;
 }
 .navigation-bar p{
 font-size: 28px;
 font-weight: 800;
 line-height: 33px;
+}
+.navigation-bar p:hover{
+  color: olive;
 }
 .navigation-bar button{
 font-size: 20px;
@@ -29,4 +32,65 @@ padding: 15px 20px 15px 20px;
 border: 1px solid rgb(13, 19, 33);
 border-radius: 8px;
 opacity: 0.8;
+}
+
+.navigation-bar button:hover{
+  background-color:coral;
+  color: rgb(2, 0, 2);
+}
+
+  /* Header section is here */
+
+.header-section{
+  background-image: url(/assets/Hero-bg.png);
+  position: absolute;
+  width: 1510px;
+  height: 652px; 
+}
+.header-class{
+  position: absolute;
+  width: 1000px;
+  height: 581px;
+  margin: 30px 250px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32;
+  padding: 0px;
+}
+.header-class h2{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 68px;
+  text-align: center;
+}
+.header-class p{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  flex: none;
+  text-align: center;
+  margin: 24px 73px 32px;
+}
+.header-class button{
+  gap: 10;
+  padding: 20px ;
+  margin: 0px 10px;
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  color: rgb(244, 240, 240);
+  background-color: black;
+  border-radius: 10px;
+}
+.header-class button:hover{
+  background-color: burlywood;
+  color: black;
 }
